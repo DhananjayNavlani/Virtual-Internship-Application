@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_box_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_internship"
+            android:icon="@drawable/ic_intership_24"
+            android:title="Internship" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/ic_baseline_business_center_24"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_baseline_contact_page_24"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:title="Log Out" />
+
+
+        </menu>
+    </item>
+</menu>

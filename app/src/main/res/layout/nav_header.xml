@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/cardview_dark_background"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <ImageView
+        android:id="@+id/nav_user_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="0dp"
+        android:paddingBottom="2dp"
+        android:src="@drawable/admin"/>
+
+    <TextView
+        android:id="@+id/name_user_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:paddingTop="8dp"
+        android:textSize="18dp"
+        android:layout_marginStart="0dp"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/email_user_nav"
+        android:layout_width="wrap_content"
+        android:text="admin@gmail.com"
+        android:layout_marginStart="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff"
+        android:textSize="14dp"/>
+
+
+</LinearLayout>

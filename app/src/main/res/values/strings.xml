@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ExposysLabs</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="hyperlink">Hi This is <b>Exposys Data Labs</b> and your query will be answered <a href="https://www.google.pl"> here.</a></string>
+    <string name="forgot_password">Forgot Password? </string>
+    <string name="lorem">Hi, This is Exposys Data Labs \nYou can contact us at\n <b>hr@exposysdata.com</b></string>
+    <string name="internContent"><div ><h2 class="text-info">INTERNSHIP PROGRAMME PROCESS:</h2>
+                    <p>1. Mini Project Assignment.\n2.Report Submission.\n
+3. "1 week - 6 months".
+</p></div>
+    <div class="service">
+        <p>Stipend Range: Based on Performance\n
+            Registration Fee: Rs 500/-(Only online Payment Accepted )
+        </p>
+    </div>
+    <div class="service">
+        <h2 class="text-info">BENEFITS FOR STUDENTS:</h2>
+        <p>Internship certificate\n
+            Work on real time projects\n
+            Based on Performance the candidate will be given Job offer for full time employment\n
+            Industry Exposure\n
+            Guidance from Industry Experts\n
+            Freelance Projects\n
+        </p>
+    </div>
+    </string>
+</resources>

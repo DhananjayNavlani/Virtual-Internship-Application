@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    tools:context=".RegisterForm">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="Internship Program"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FFEB3B"
+            android:textSize="25sp"
+            app:layout_constraintVertical_bias="0.19" />
+
+
+
+        <EditText
+            android:id="@+id/form_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Full Name*"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp"
+            app:layout_constraintVertical_bias="0.13999999" />
+
+        <EditText
+            android:id="@+id/form_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Email*"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+
+        <EditText
+            android:id="@+id/form_branch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Branch*"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/form_college"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="College*"
+            android:inputType="text"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/form_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Phone*"
+            android:inputType="textPhonetic"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/form_tenthpercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="10th Percentage*"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/form_twelthpercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="12th Percentage*"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+            android:text="UG*"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/form_ugSpinner"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+            android:text="PG*"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+
+        <Spinner
+            android:id="@+id/form_pgSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/form_loc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:ems="10"
+            android:fontFamily="@font/aclonica"
+            android:hint="Location*"
+            android:inputType="textLongMessage"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+            android:text="Interships*"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/form_choiceSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:textAlignment="center"
+            android:layout_height="match_parent"
+            android:text="Duration*"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:fontFamily="@font/aclonica"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <Spinner
+            android:id="@+id/form_durationSpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/black"
+            android:fontFamily="@font/aclonica"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submitBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="50dp"
+                android:fontFamily="@font/aclonica"
+                android:text="Submit"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/resetBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="0"
+                android:fontFamily="@font/aclonica"
+                android:text="Reset"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:progressTint="#FFFCFC"
+            android:visibility="invisible"
+            android:layout_marginBottom="32dp" />
+    </LinearLayout>
+</ScrollView>
